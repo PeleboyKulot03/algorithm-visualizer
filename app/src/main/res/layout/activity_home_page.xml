@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homePage"
+    android:background="@drawable/ic_wave"
+    android:id="@+id/parent"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/toolbar">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:title="@string/app_name"
+            app:titleTextColor="@color/white"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/parentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/searchingAlg"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/white"
+                android:onClick="card"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                tools:ignore="UsingOnClickInXml">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_baseline_search_24"
+                        app:tint="@color/black"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/searching_n_algorithm"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sortingAlg"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/white"
+                android:onClick="card"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                tools:ignore="UsingOnClickInXml">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_baseline_sort_24"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/sorting_algorithm"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pathFindingAlg"
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/searchingAlg"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/white"
+                android:onClick="card"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                tools:ignore="UsingOnClickInXml">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/maze"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="@string/path_finding_alg"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/graphAlg"-->
+<!--                android:layout_width="190dp"-->
+<!--                android:layout_height="250dp"-->
+<!--                android:layout_below="@+id/sortingAlg"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:onClick="card"-->
+<!--                app:cardCornerRadius="4dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true"-->
+<!--                tools:ignore="UsingOnClickInXml">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical"-->
+<!--                    tools:ignore="UseCompoundDrawables">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="150dp"-->
+<!--                        android:src="@drawable/ic_baseline_timeline_24"-->
+<!--                        android:contentDescription="@string/todo" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/graph_n_algorithms"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="20sp" />-->
+<!--                </LinearLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/black_gradient.xml" value="0.2825" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/gradient_background.xml" value="0.2775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.205" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.227" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.212" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.212" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/ic_wave.xml" value="0.2775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/ic_wave__1_.xml" value="0.2055" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/round_button.xml" value="0.2765" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/drawable/round_edit_text.xml" value="0.2775" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/activity_merge_sort.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/activity_path_finding_algorithm_main.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/activity_path_finding_algorithms.xml" value="0.28335005015045134" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/activity_searching_algorithm.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/activity_sorting_algorithms.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/fragment_binary_search.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/fragment_linear_search.xml" value="0.32708333333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/fragment_merge_sort.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-land/fragment_selection_sort.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout-v28/activity_home_page.xml" value="0.278125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_fullscreen.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_fullscreen2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_home_page.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_list_page.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_merge_sort.xml" value="0.23472222222222222" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_path_finding_algorithm_main.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_path_finding_algorithms.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_path_finding_main.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_searching_algorithm.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_sorting_algorithms.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_test.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/activity_trees_algorithm.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/fragment_binary_search.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/fragment_linear_search.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/fragment_merge_sort.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/fragment_selection_sort.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/layout/list_layout.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/DSAVisualizer/app/src/main/res/menu/list_menu.xml" value="0.24722222222222223" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.05710825414570524" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
